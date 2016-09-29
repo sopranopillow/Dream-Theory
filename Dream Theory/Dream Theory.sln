@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{948CE8C1-7D8E-F0E7-1438-BCCFF9A4D299}") = "Dream Theory", "Assembly-CSharp-firstpass.csproj", "{53220F52-E6E4-D8F9-685C-653D04424FED}"
+EndProject
+Project("{948CE8C1-7D8E-F0E7-1438-BCCFF9A4D299}") = "Dream Theory", "Assembly-CSharp-Editor.csproj", "{F24E8DEE-C209-6B0A-733D-C885B65B1362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53220F52-E6E4-D8F9-685C-653D04424FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53220F52-E6E4-D8F9-685C-653D04424FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53220F52-E6E4-D8F9-685C-653D04424FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53220F52-E6E4-D8F9-685C-653D04424FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24E8DEE-C209-6B0A-733D-C885B65B1362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24E8DEE-C209-6B0A-733D-C885B65B1362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24E8DEE-C209-6B0A-733D-C885B65B1362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24E8DEE-C209-6B0A-733D-C885B65B1362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
