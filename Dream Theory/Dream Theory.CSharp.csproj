@@ -77,6 +77,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMenuScript.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\NextSceneTeleport1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3D Models\3D Bed\archibase.net.txt" />
