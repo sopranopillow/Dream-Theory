@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 72b0b816983f41e4f96dd6cd89390360
+timeCreated: 1475382281
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arch20_010
+    100002: arch20_011
+    100004: arch20_012
+    100006: arch20_013
+    100008: arch20_014
+    100010: arch20_070
+    100012: arch20_071
+    100014: arch20_072
+    100016: arch20_073
+    100018: arch20_074
+    100020: arch20_075
+    100022: arch20_076
+    100024: arch20_077
+    100026: arch20_078
+    100028: arch20_079
+    100030: //RootNode
+    400000: arch20_010
+    400002: arch20_011
+    400004: arch20_012
+    400006: arch20_013
+    400008: arch20_014
+    400010: arch20_070
+    400012: arch20_071
+    400014: arch20_072
+    400016: arch20_073
+    400018: arch20_074
+    400020: arch20_075
+    400022: arch20_076
+    400024: arch20_077
+    400026: arch20_078
+    400028: arch20_079
+    400030: //RootNode
+    2300000: arch20_010
+    2300002: arch20_011
+    2300004: arch20_012
+    2300006: arch20_013
+    2300008: arch20_014
+    2300010: arch20_070
+    2300012: arch20_071
+    2300014: arch20_072
+    2300016: arch20_073
+    2300018: arch20_074
+    2300020: arch20_075
+    2300022: arch20_076
+    2300024: arch20_077
+    2300026: arch20_078
+    2300028: arch20_079
+    3300000: arch20_010
+    3300002: arch20_011
+    3300004: arch20_012
+    3300006: arch20_013
+    3300008: arch20_014
+    3300010: arch20_070
+    3300012: arch20_071
+    3300014: arch20_072
+    3300016: arch20_073
+    3300018: arch20_074
+    3300020: arch20_075
+    3300022: arch20_076
+    3300024: arch20_077
+    3300026: arch20_078
+    3300028: arch20_079
+    4300000: arch20_074
+    4300002: arch20_070
+    4300004: arch20_071
+    4300006: arch20_072
+    4300008: arch20_073
+    4300010: arch20_075
+    4300012: arch20_076
+    4300014: arch20_077
+    4300016: arch20_078
+    4300018: arch20_079
+    4300020: arch20_010
+    4300022: arch20_011
+    4300024: arch20_012
+    4300026: arch20_013
+    4300028: arch20_014
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
