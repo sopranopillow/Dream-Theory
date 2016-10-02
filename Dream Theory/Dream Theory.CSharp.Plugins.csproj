@@ -181,10 +181,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3D Models\3D Bed\archibase.net.txt" />
+    <None Include="Assets\3D Models\3D_Bed2\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Books\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Books2\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Books3\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Books4\archibase.net.txt" />
+    <None Include="Assets\3D Models\3D_Desk\archibase.net.txt" />
+    <None Include="Assets\3D Models\3D_Fan\archibase.net.txt" />
+    <None Include="Assets\3D Models\3D_Fan2\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Tree\archibase.net.txt" />
     <None Include="Assets\3D Models\archibase.net.txt" />
     <None Include="Assets\Skyboxes\ame_greenhaze\ame_greenhaze.shader" />

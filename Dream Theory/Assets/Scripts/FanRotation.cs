@@ -5,13 +5,15 @@ public class FanRotation : MonoBehaviour {
 
 	public Transform playerTransform;
 
+    public float fanspeed;
+
 	// Use this for initialization
 	void Start () {
-		playerTransform = GameObject.FindGameObjectWithTag("Rotater").transform;
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		playerTransform.Rotate(0, 0.2f, 0);
+		playerTransform.Rotate(0, fanspeed, 0);
 	}
 }
