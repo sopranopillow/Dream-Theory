@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\FanRotation.cs" />
      <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\NextSceneTeleport1.cs" />
+     <Compile Include="Assets\Scripts\flashlight.cs" />
+     <Compile Include="Assets\Scripts\sound_oneshot.cs" />
      <None Include="Assets\3D Models\3D_Desk\archibase.net.txt" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
