@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.32331884, g: 0.27811047, b: 0.2769941, a: 1}
+  m_IndirectSpecularColor: {r: 0.32328865, g: 0.2780205, b: 0.27699044, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -148,6 +148,82 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c5cf896623a0a7499750cc193cad593, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &143576790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 143576791}
+  - 108: {fileID: 143576792}
+  - 114: {fileID: 143576793}
+  m_Layer: 0
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &143576791
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 143576790}
+  m_LocalRotation: {x: 0.44649187, y: -0.5483111, z: 0.5483111, w: 0.44649187}
+  m_LocalPosition: {x: 0.172, y: -0.038, z: 0.269}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1562549484}
+  m_RootOrder: 1
+--- !u!108 &143576792
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 143576790}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 2
+  m_Color: {r: 0.8014706, g: 0.4948634, b: 0.2592993, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &143576793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 143576790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7117b6f3d6d4645a73352efc4c3764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlight2: {fileID: 143576792}
 --- !u!1 &319440535 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 350ca2684db3f554aa5d633311620e55, type: 3}
@@ -543,7 +619,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 87.7
-  MaxDistance: 88.6
+  MaxDistance: 102.78
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -554,13 +630,23 @@ AudioSource:
     m_Curve:
     - time: 0
       value: 1
-      inSlope: -0.9902358
-      outSlope: -0.9902358
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
-    - time: 1
+    - time: 0.6010516
+      value: 0.7152176
+      inSlope: -0.949502
+      outSlope: -0.949502
+      tangentMode: 0
+    - time: 0.9264543
+      value: 0.032860756
+      inSlope: -0.7199254
+      outSlope: -0.7199254
+      tangentMode: 0
+    - time: 0.96067417
       value: 0
-      inSlope: Infinity
-      outSlope: Infinity
+      inSlope: -2.7688897
+      outSlope: -2.7688897
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -932,6 +1018,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 99.26288, y: 157.23419, z: -1058.5033}
   m_Center: {x: 473.71356, y: 78.117584, z: 529.7581}
+--- !u!1 &1411526332 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 1562549481}
+--- !u!114 &1411526333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1411526332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7117b6f3d6d4645a73352efc4c3764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlight2: {fileID: 0}
 --- !u!1001 &1452679237
 Prefab:
   m_ObjectHideFlags: 0
@@ -1084,6 +1186,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 013131bc86b34e945aeedf7175157514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1562549484 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 1562549481}
 --- !u!81 &1562549490
 AudioListener:
   m_ObjectHideFlags: 0
