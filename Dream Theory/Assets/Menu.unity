@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.01
-  off_x: 4.5
+  off_x: 4
   off_y: 3
   background: {fileID: 1420803256}
   startMeasures_x: 0
