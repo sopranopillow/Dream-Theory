@@ -79,13 +79,18 @@
     <Compile Include="Assets\NoteSystem (Basic)\Scripts\PickupNote.cs" />
     <Compile Include="Assets\Scripts\BookFwd.cs" />
     <Compile Include="Assets\Scripts\CameraMenuScript.cs" />
+    <Compile Include="Assets\Scripts\CandleMove.cs" />
+    <Compile Include="Assets\Scripts\CandleUpDown.cs" />
     <Compile Include="Assets\Scripts\FanRotation.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\NextSceneTeleport1.cs" />
+    <Compile Include="Assets\Scripts\flashlight.cs" />
+    <Compile Include="Assets\Scripts\sound_oneshot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3D Models\3D Bed\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Bed2\archibase.net.txt" />
+    <None Include="Assets\3D Models\3D_Bedroom\Mr Preview Bedroom.txt" />
     <None Include="Assets\3D Models\3D_Books\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Books2\archibase.net.txt" />
     <None Include="Assets\3D Models\3D_Books3\archibase.net.txt" />
@@ -99,6 +104,7 @@
     <None Include="Assets\NoteSystem (Basic)\README.txt" />
     <None Include="Assets\Skyboxes\ame_greenhaze\ame_greenhaze.shader" />
     <None Include="Assets\Skyboxes\ame_starfield\ame_starfield.shader" />
+    <None Include="Assets\Skyboxes\ely_cloudtop\ely_cloudtop.shader" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
