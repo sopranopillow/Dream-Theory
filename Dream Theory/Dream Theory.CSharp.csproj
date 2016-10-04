@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\BookFwd.cs" />
     <Compile Include="Assets\Scripts\CameraMenuScript.cs" />
     <Compile Include="Assets\Scripts\CandleMove.cs" />
+    <Compile Include="Assets\Scripts\CandleUpDown.cs" />
     <Compile Include="Assets\Scripts\FanRotation.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\NextSceneTeleport1.cs" />
